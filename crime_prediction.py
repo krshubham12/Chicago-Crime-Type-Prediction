@@ -8,7 +8,7 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 
 warnings.filterwarnings('ignore')
-data = pd.read_csv('F:\Mtech\Projects\sem2\LSA\Dataset\crimes.csv')
+data = pd.read_csv('crimes.csv')
 
 #print(data.head())
 #print(data['Primary Type'].unique())
